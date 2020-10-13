@@ -4,8 +4,8 @@ public class JoinSortedArrays {
 
     public static void main(String[] args) {
 
-    int[] list1 = new int[]{2, 4, 5, 3, 6, 2, 8, 9, 3, 7};
-    int[] list2 = new int[]{9, 3, 5, 2, 8, 5, 1, 2, 7, 3};
+    int[] list1 = new int[]{2, 4, 5, 3, 6, 2, 8, 9, 2, 7};
+    int[] list2 = new int[]{5, 2, 7, 2, 8, 3, 8, 8, 7, 3};
 
     for (int i : merge(list1, list2)) {
         System.out.print(i + ", ");
